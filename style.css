@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+:root{
+    --hader-height: 5rem;
+
+    --main-color: #ffcccc;
+    --first-color: #ff3399;
+    --second-color: red;
+    --white-color: #fff;
+    --black-color: #151515;
+
+    --font-cursive: 'Great Vibes', cursive;
+    --font-body: 'Open Sans', sans-serif;
+
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-ize: 0.813rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+    font-size: 1rem;
+    font-family: open sans, sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 100;
+    transition: all 0.4s ease;
+}
+.navbar{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.nav-menu .nav-list{
+    display: flex;
+}
+.nav-menu li{
+    margin-right: 2rem;
+}
+.nav-link{
+    font-size: 1rem;
+    color: #151515;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    transition: all 04s ease;
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #ff3399;
+    transition: all 0.4s ease-in-out;
+
+}
+.nav-link:hover:before{
+    width: 100%;
+}
+.nav-link:hover,
+.nav-link.active{
+    color: #ff3399;
+}
+.nav-toggle{
+    font-size: 2.25rem;
+    padding: 5px 5px 0;
+    border: 2px solid transparent;
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+}
+.nav-toggle:hover{
+    color: #ff3399;
+    border: 2px solid #ff3399;
+}
+@media (max-width: 920px) {
+    .nav-menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 100vh;
+        background-color: #ffcccc;
+        font-size: 1.5rem;;
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 5rem;
+        box-sizing: 0 0 5px rgba(0,0,0,0.4);
+        transition: all 0.4s ease-in-out;
+    }
+    .show-nav{
+        width: 60%;
+    }
+    .nav-menu .nav-list{
+        display: block;
+    }
+    .nav-menu li{
+        padding: 15px 0;
+    }
+    .nav-link{
+        font-size: 1.25rem;
+    }
+    .nav-toggle{
+        display: block;
+    }
+
+}
