@@ -101,6 +101,52 @@ body{
     color: #ff3399;
     border: 2px solid #ff3399;
 }
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffcccc;
+    border-radius: 0 0 300px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home .home-img img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.home .home-content{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.home-content h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    letter-spacing: 4px;
+    color: #ff3399;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 920px) {
     .nav-menu{
         position: absolute;
