@@ -17,5 +17,7 @@ const linkColor = document.querySelectorAll('.nav-link')
 function colorLink(){
     if(linkColor){
         linkColor.forEach(L => L.classList.remove('active'))
+        this.classList.add('active')
     }
 }
+linkColor.forEach(L => L.addEventListener('click', colorLink))
