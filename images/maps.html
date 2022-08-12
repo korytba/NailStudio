@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="iem7" lang="pl"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" lang="pl"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8" lang="pl"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="pl"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="pl"><!--<![endif]-->
+
+<head>
+  <!-- <meta charset="utf-8"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" sizes="192x192" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/logo/win_logo/desktop-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/logo/win_logo/mini-icon.png">
+  <link rel="manifest" href="https://firmania.pl/manifest.json">
+  <meta name="theme-color" content="#401458">
+  <meta name="application-name" content="Firmania"/>
+  <meta name="msapplication-TileColor" content="#401458"/>
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/favicon-128.png" sizes="128x128" />
+
+  <meta name="application-name" content="Firmania"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/meta_logo/mstile-310x310.png" />
+<!--
+  <link rel="preconnect dns-prefetch" href="https://r3---sn-4g5ednse.googlevideo.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://opx2waycm-atl.netmng.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://googleads.g.doubleclick.net" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://www.google.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://tpc.googlesyndication.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://www.googletagmanager.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://pagead2.googlesyndication.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://sync.ipredictive.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://www.gstatic.com" crossorigin />
+  <link rel="preconnect dns-prefetch" href="https://encrypted-tbn0.gstatic.com" crossorigin /> -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"LocalBusiness","telephone":"732 721 973","name":"Nel's Studio Kosmetyczne","geo":{"@type":"GeoCoordinates","latitude":52.2034099,"longitude":21.0112433},"image":"https://osm.cylex-international.com/osm/staticmaplite/staticmap.php?center=52.2034099,21.0112433&zoom=15&markers=52.2034099,21.0112433&size=200x200&maptype=tm_eu","address":{"@type":"PostalAddress","addressLocality":"Warszawa","addressRegion":"Mazowieckie","addressCountry":"PL","streetAddress":"Madali\u0144skiego 57","postalCode":"02-544"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"http://schema.org/Monday","opens":"10:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"http://schema.org/Tuesday","opens":"10:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"http://schema.org/Wednesday","opens":"10:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"http://schema.org/Thursday","opens":"10:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"http://schema.org/Friday","opens":"10:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"http://schema.org/Saturday","opens":"09:00","closes":"14:00"}]}</script>
+<meta property="og:image" content="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/imgs/firmania_og_image.jpg" />
+<meta property="og:image:height" content="676" />
+<meta property="og:image:width" content="1201" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://firmania.pl","name":"<i class=\"icon icon-home\"></i>"}},{"@type":"ListItem","position":2,"item":{"@id":"/warszawa/salon-pi%C4%99kno%C5%9Bci","name":"Salon pi\u0119kno\u015bci Warszawa"}}]}</script>
+<link rel="shortcut icon" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/favicon.ico" type="image/vnd.microsoft.icon" />
+<script>dataLayer = [{"drupalLanguage":"pl","userUid":0,"event":"interestPages","pageType":"company_profile-c-p","mid":"303048","c":"Salon pi\u0119kno\u015bci","p":"Warszawa"}];</script>
+<meta name="description" content="Znajdź dane kontaktowe firmy Nel&#039;s Studio Kosmetyczne w Madalińskiego 57, 02-544, Warszawa
+ łącznie z numerem telefonu ☎, adresem, ⌚ godzinami otwarcia. Znajdź w pobliżu także Salon piękności w Warszawa." />
+<link rel="manifest" href="/manifest.webmanifest?v=1" crossorigin="" />
+<meta name="theme-color" content="#53B0EB" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://firmania.pl/warszawa/nels-studio-kosmetyczne-303048" />
+<link rel="apple-touch-icon" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/logo/firmania-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black_translucent" />
+  <title>Nel's Studio Kosmetyczne - Salon piękności w Warszawa ▷ Madalińskiego 57, 02-544, Warszawa
+ | Firmania</title>
+
+
+
+  <link rel="preload" as="font" href="/sites/all/themes/custom/atomic_bootstrap/fonts/fontello/font/fontello.woff2?3158492" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/sites/all/themes/custom/atomic_bootstrap/fonts/trebuchet/trebuc.woff" type="font/woff" crossorigin="anonymous">
+
+  <style>
+  /* fallback */
+  @font-face{font-family:'Material Icons';font-style:normal;font-display:swap;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2')}.material-icons{font-family:'Material Icons';font-weight:400;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}
+  </style>
+    <!-- Consent -->
+      <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/js/html5shiv.js" type="text/javascript"></script>
+    <script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/js/respond.min.js" type="text/javascript"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-company page-company- page-company-303048 container-fluid i18n-pl country-code-PL" >
+  <link rel=preload href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/fonts/fontello/css/fontello.min.css" as="style" onload="this.rel = 'stylesheet'">
+  <script>
+      function loadCSS(filename){
+        var file = document.createElement("link");
+        file.setAttribute("rel", "stylesheet");
+        file.setAttribute("type", "text/css");
+        file.setAttribute("href", filename);
+        document.head.appendChild(file);
+
+      }
+      var ua = navigator.userAgent.toLowerCase();
+      if (ua.indexOf('safari') != -1) {
+        if (ua.indexOf('chrome') <= -1) {
+          loadCSS('/sites/all/themes/custom/atomic_bootstrap/fonts/fontello/css/fontello.min.css');
+        }
+      }
+  </script>
+  <style>
+@import url("https://firmania.pl/modules/system/system.base.css?rfr6lp");
+</style>
+<style>
+@import url("https://firmania.pl/sites/all/modules/custom/current_location/css/current_location.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.menu.min.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.autocomplete.min.css?rfr6lp");
+</style>
+<style>
+@import url("https://firmania.pl/modules/field/theme/field.css?rfr6lp");
+@import url("https://firmania.pl/modules/node/node.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/opening_times/css/opentime_formatter.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/views/css/views.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/modified/lazyloader/lazyloader.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/ckeditor/css/ckeditor.css?rfr6lp");
+</style>
+<style>
+@import url("https://firmania.pl/sites/all/modules/contrib/ctools/css/ctools.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/near_me/css/near_me.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/panels/css/panels.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/morphic/plugins/layouts/morphic/css/jisten.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/cylex_reviews/css/cylex_reviews.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/contrib/addressfield/addressfield.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/search_details/css/search_details.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/customer_care/css/customer_care.css?rfr6lp");
+@import url("https://firmania.pl/sites/all/modules/custom/customer_care/css/customer_register.css?rfr6lp");
+@import url("https://firmania.pl/sites/firmania_pl/files/less/TrO1vSi7MZ5CoYcEERQYH0BCp00OcHvmCOmW96W0Ozg/sites/all/themes/custom/atomic_bootstrap/less/organisms/filter.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?rfr6lp");
+@import url("https://firmania.pl/sites/firmania_pl/files/less/TrO1vSi7MZ5CoYcEERQYH0BCp00OcHvmCOmW96W0Ozg/sites/all/themes/custom/atomic_bootstrap/less/organisms/similar-nearby.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?rfr6lp");
+@import url("https://firmania.pl/sites/firmania_pl/files/less/TrO1vSi7MZ5CoYcEERQYH0BCp00OcHvmCOmW96W0Ozg/sites/all/themes/custom/atomic_bootstrap/less/organisms/ads.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?rfr6lp");
+</style>
+<style>
+@import url("https://firmania.pl/sites/firmania_pl/files/less/TrO1vSi7MZ5CoYcEERQYH0BCp00OcHvmCOmW96W0Ozg/sites/all/themes/custom/atomic_bootstrap/bootstrap/less/bootstrap.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?rfr6lp");
+@import url("https://firmania.pl/sites/firmania_pl/files/less/TrO1vSi7MZ5CoYcEERQYH0BCp00OcHvmCOmW96W0Ozg/sites/all/themes/custom/atomic_bootstrap/less/style.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?rfr6lp");
+</style>
+    <div class="region region-page-top">
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9XZ87N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  </div>
+  
+  <link rel="prefetch" href="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/css/mapbox.min.css" as="style" onload="this.rel = 'stylesheet'">
+
+<div class="max-width-container">
+  </div>
+
+
+<div class="main-container container">
+
+ <!--  <header role="banner" id="page-header">
+    
+      </header>  --><!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-12" id="page-content">
+            
+                                                                              <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="panel-display panel-morphic clearfix"><div class="panel-panel panel-col"><div data-lb-type="group" class="lb-canvas container" data-display=""><div data-lb-type="section" data-lb-settings='{"contentWidth":"auto","cssClass":"remove-space","cssContentClass":"parallax-map"}' class="remove-space"><div data-lb-type="group" class="section-group parallax-map" style="width: auto"><div data-lb-type="row" class="" data-lm-style=""><div data-lb-type="col" data-lb-size="12" class="company-map-header" data-lm-visibility="true" data-lm-style="company-map-header"><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-548273b8-97d6-40cc-a851-4d5a54bfef23" data-lb-widget-uuid="548273b8-97d6-40cc-a851-4d5a54bfef23" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-entity-field pane-company-field-company-geofield"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-company-geofield field-type-geofield field-label-hidden"><div class="field-items"><div class="field-item even"><div id="static-map-wrapper"></div><div id="map-overlay"></div><div class="top-section container top-section-buttons text-right margin-bottom-15"><div id="view-full-map" class="btn btn-secondary" data-button="view-full-map"><span id="map-size-desktop" class="hidden-xs">Pokaż całą mapę<i class="icon icon-angle-down"></i></span><span id="map-size" class="visible-xs"><i class="icon icon-resize-full"></i></span></div></div></div></div></div>  </div>
+
+  
+  </div>
+</div></div></div></div></div></div><div data-lb-type="section" data-lb-settings='{"contentWidth":"","cssClass":"top-section","cssContentClass":"company-details-section container"}' class="top-section"><div data-lb-type="group" class="section-group company-details-section container" ><div data-lb-type="row" class="visible-xs" data-lm-style="visible-xs"><div data-lb-type="col" data-lb-size="12" class="" data-lm-visibility="" data-lm-style=""><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-f215033d-c1dc-477e-88a7-7cb0f097c2d2" data-lb-widget-uuid="f215033d-c1dc-477e-88a7-7cb0f097c2d2" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-entity-view pane-company"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class=" header-wrapper">
+  	<div id="advanced-breadcrumbs" class="clearfix">
+	  <ol class="breadcrumb">
+	  	    <li >
+	      <a href="https://firmania.pl" aria-label="breadcrumb">	        <i class="icon icon-home"></i>	      </a>	    </li>
+	  	    <li >
+	      <a href="/warszawa/salon-pi%C4%99kno%C5%9Bci" aria-label="breadcrumb">	        Salon piękności Warszawa	      </a>	    </li>
+	  	  </ol>
+	</div>
+</div>
+<div class="row">
+  <h1 class="company-title margin-top-0 col-xs-12">Nel's Studio Kosmetyczne, Warszawa</h1>
+  </div>
+<div class="last-modificat-date">
+        Zaktualizowany Październik 27, 2021  </div>
+<div class="company-det">
+      <div class="row company-info-mobile">
+                                <a class="mobile-header-icons col-xs-4 text-center" href="tel:+48732721973">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" title="Phone" alt="Phone"  data-echo="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/images/icons/button-call.png" width="47" height="47" />
+            Phone          </a>
+              
+              <a class="mobile-header-icons col-xs-4 text-center" href="https://www.google.com/maps/dir/?api=1&destination=52.2034099,21.0112433" target="_blank" rel="nofollow noopener">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" title="Directions" alt="Directions"  data-echo="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/images/icons/button-map.png" width="47" height="47" />
+  
+
+          Directions        </a>
+      
+          </div>
+  </div>
+  </div>
+
+  
+  </div>
+</div></div></div></div><div data-lb-type="row" class="white-block remove-phone-padding" data-lm-style="white-block remove-phone-padding"><div data-lb-type="col" data-lb-size="12" class="pull-right-md push-top-xs" data-lm-visibility="true" data-lm-style="pull-right-md push-top-xs"><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-a1d6a803-f575-40ed-a0cb-b177983184f5" data-lb-widget-uuid="a1d6a803-f575-40ed-a0cb-b177983184f5" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1 data-lb-visibility="hidden">&nbsp;</div><div data-lb-type="widget" data-lb-widget-id="new-3ddac1f6-29eb-415a-af33-128718cddcf6" data-lb-widget-uuid="3ddac1f6-29eb-415a-af33-128718cddcf6" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-pm-existing-pages"  >
+  
+      
+  
+  <div class="pane-content">
+    
+ 
+
+<div class="  entity entity-company company-company clearfix company-details">
+    <div class=" content ">
+    <div class="row margin-bottom-30">
+      <div class="col-md-3 col-sm-3 hidden-xs">
+        <div class="field field-name-field-company-logo padding-10">
+          <img class="img-responsive" data-echo="https://firmania.pl/sites/all/themes/custom/cylex/images/company-default.png" data-icon="/sites/all/modules/modified/lazyloader/loader/loader-7.gif" src="https://firmania.pl/sites/all/modules/modified/lazyloader/lazyloader.png" width="100" height="100" alt="Nel&#039;s Studio Kosmetyczne" /><noscript><img class="img-responsive" src="https://firmania.pl/sites/all/themes/custom/cylex/images/company-default.png" width="100" height="100" alt="Nel&#039;s Studio Kosmetyczne" /></noscript>        </div>
+      </div>
+      <div class="col-md-9 col-sm-9">
+        <div class="row">
+          <div class="hidden-xs col-md-12 col-sm-12 header-wrapper">
+            	<div id="advanced-breadcrumbs" class="clearfix">
+	  <ol class="breadcrumb">
+	  	    <li >
+	      <a href="https://firmania.pl" aria-label="breadcrumb">	        <i class="icon icon-home"></i>	      </a>	    </li>
+	  	    <li >
+	      <a href="/warszawa/salon-pi%C4%99kno%C5%9Bci" aria-label="breadcrumb">	        Salon piękności Warszawa	      </a>	    </li>
+	  	  </ol>
+	</div>
+            <div class="company-title h1 hidden-xs">Nel's Studio Kosmetyczne, Warszawa</div>
+            <div class="last-modificat-date">
+                                            Zaktualizowany Październik 27, 2021                          </div>
+            <div class="header-oh">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    </div>
+    <div class="row">
+      <div class="company-det col-md-6">
+        <h2>Szczegóły kontaktu</h2>
+                                                                                <div class="hidden-xs company-phone margin-bottom-5">
+                  <a class="btn btn-primary btn-lg" href="tel:+48732721973">
+                    <i class="icon icon-phone"></i>+48 732 721 973                  </a>
+                </div>
+                                      
+        <div class="company-info">
+                        <div class="company-address field-row">
+              <i class="icon icon-location-2 orange-icon"></i>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=52.2034099,21.0112433" rel="nofollow noopener" target="_blank"><div class="field field-name-field-company-address field-type-addressfield field-label-hidden">
+  
+  <div class="field-items">
+          <div class="street-block inline"><span class="thoroughfare">Madalińskiego 57, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-544, </span> <span class="locality">Warszawa </span></div>      </div>
+</div>
+</a>            </div>
+          
+                                                              <div class="visible-xs company-phone field-row">
+                  <i class="icon icon-phone orange-icon"></i>
+                  <a href="tel:+48732721973">
+                    +48 732 721 973                  </a>
+                </div>
+                                                                      <div class="yext-wrapper">
+                                              </div>
+                  </div>
+
+
+      </div>
+
+      <div class="company-det-col-2 col-md-6">
+                      <div class="opening-time-wrapper margin-bottom-15 ">
+                              <div class="opening-time-top">
+                  <div class="field-row clearfix opening-time-label pull-left">
+                    <i class="icon icon-clock orange-icon"></i><span>Godziny otwarcia</span>
+                  </div>
+                                      <div class="departament-wrapper ">
+                                                                        <div class="department" data-department-tab-content="1" data-department-status="0" >
+                            <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 9 </span>h<span class="opens-closes-time"> 17 </span>min</div>                          </div>
+                                                                                            </div>
+                                  </div>
+
+                  
+                <div id="date-collapse-button" data-toggle="collapse" data-target="#date-collapse" class=" btn-default btn-lg">
+                  <div class='departments-tabs'>
+                                                                                </div>
+                                      <div class="department">
+                      <div class="opening-types" data-department-tab-content="1">
+  <div class="oh-types">
+        <div class="day-of-week current-day "><span class="day-label">czwartek</span><div class="day-wrapper"><div class="day-value">10:00 AM - 8:00 PM</div></div></div><div id="date-collapse" class="collapse"><div class="day-of-week"><span class="day-label">piątek</span><div class="day-wrapper"><div class="day-value">10:00 AM - 8:00 PM</div></div></div><div class="day-of-week  "><span class="day-label">sobota</span><div class="day-wrapper"><div class="day-value">9:00 AM - 2:00 PM</div></div></div><div class="day-of-week  "><span class="day-label">niedziela</span><div class="day-value">Zamknięte</div></div><div class="day-of-week  "><span class="day-label">poniedziałek</span><div class="day-wrapper"><div class="day-value">10:00 AM - 8:00 PM</div></div></div><div class="day-of-week  "><span class="day-label">wtorek</span><div class="day-wrapper"><div class="day-value">10:00 AM - 8:00 PM</div></div></div><div class="day-of-week  "><span class="day-label">środa</span><div class="day-wrapper"><div class="day-value">10:00 AM - 8:00 PM</div></div></div></div>  </div>
+</div>
+
+                    </div>
+                  
+                  <i class="icon collapse-icon icon-angle-down"></i>
+                  <div class="upcoming-holiday clear-both margin-top-15">
+                                                          </div>
+                  
+                </div>
+
+                          </div>
+                        <div class="company-report field-row clearfix">
+              <i class="icon icon-bug orange-icon"></i>
+              <a class="report-incorect-info" href="/contact/303048" rel="nofollow">
+                Zgłoś niepoprawne dane              </a>
+            </div>
+                   <!--   -->
+      </div>
+    </div>
+
+          <div id="mobile-map"></div>
+      </div>
+</div>
+  </div>
+
+  
+  </div>
+</div><div data-lb-type="row" class="review-categories-row" data-lm-style="review-categories-row"><div data-lb-type="col" data-lb-size="8" class="review-col" data-lm-visibility="true" data-lm-style="review-col"><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-0739a633-66d7-489b-b149-87857edf09c5" data-lb-widget-uuid="0739a633-66d7-489b-b149-87857edf09c5" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-block pane-cylex-reviews-cylex-reviews-form"  >
+  
+      
+  
+  <div class="pane-content">
+    <h3>Napisz recenzję na Cylex </h3>
+<form action="https://www.cylex-polska.pl/reviews/reviewhandler.ashx?firnr=13629825" method="POST">
+		<div class="form-group">
+		<label for="rating">Opinia</label>
+		<input type="text" name="rating" id="rating" class="hidden">
+		<div id="comment-star">
+			<span class="star-icon icon icon-star-empty" data-star="1"></span>
+			<span class="star-icon icon icon-star-empty" data-star="2"></span>
+			<span class="star-icon icon icon-star-empty" data-star="3"></span>
+			<span class="star-icon icon icon-star-empty" data-star="4"></span>
+			<span class="star-icon icon icon-star-empty" data-star="5"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="review">Opisz Twoje doświadczenie z tą firmą</label>
+		<textarea id="review" name="review" class="form-control" rows="6" maxlength="4000"></textarea>
+	</div>
+	<input type="hidden" name="source" value="firmania">
+	<input type="hidden" name="firnr" value="13629825">
+	<input type="hidden" name="returnurl" value="https://firmania.pl/warszawa/nels-studio-kosmetyczne-303048">
+	<div class="row">	
+		<div class="col-sm-5 col-sm-push-7">
+			<button id="submit-review-button" type="submit" class="btn btn-primary btn-lg pull-right-md">
+				<i class="fa fa-send orange-icon"></i> Wyślij opinię			</button>
+		</div>
+		<div class="company-cylex-url col-sm-7 col-sm-pull-5">
+			<div class="row">
+													<div class="pull-left-md col-sm-7 field-row clearfix">
+					  <a class="blue-link" href="https://www.cylex-polska.pl/firmy/nel%27s-studio-kosmetyczne-13629825.html" target="_blank" rel="nofollow noopener">
+						<i class="icon icon-info orange-icon"></i>
+						Dowiedz się więcej na Cylex Polska						</a>
+					 </div>
+							  				<div class="review-link pull-left-md col-sm-5 field-row clearfix">
+					<a class="blue-link text-bold" href="https://www.cylex-polska.pl/firmy/nel%27s-studio-kosmetyczne-13629825.html#reviews" target="_blank" rel="nofollow noopener">
+						<i class="icon icon-star-filled orange-icon"></i>
+						Opinie					</a>
+				</div>
+			  			</div>
+		</div>
+
+	</div>
+</form>
+  </div>
+
+  
+  </div>
+</div></div></div><div data-lb-type="col" data-lb-size="4" class="padding-left-25-sm-up category-col" data-lm-visibility="true" data-lm-style="padding-left-25-sm-up category-col"><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-38271181-f7a5-43d8-8755-9d3c7d27a44a" data-lb-widget-uuid="38271181-f7a5-43d8-8755-9d3c7d27a44a" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-entity-view pane-company"  >
+  
+      
+  
+  <div class="pane-content">
+      <div class="company-category field-row">
+		<h3>Zobacz także</h3>
+    <div class="categories-list">
+
+              <a href="/warszawa/salon-pi%C4%99kno%C5%9Bci">Salon piękności Warszawa</a><a href="/warszawa/salon-kosmetyczny">Salon kosmetyczny Warszawa</a>                  </div>
+  </div>
+  </div>
+
+  
+  </div>
+</div></div></div></div><div data-lb-type="widget" data-lb-widget-id="new-4d255cd2-ed23-4e41-9d9c-cbf48bafad70" data-lb-widget-uuid="4d255cd2-ed23-4e41-9d9c-cbf48bafad70" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1 data-lb-visibility="hidden">&nbsp;</div></div></div></div></div></div><div data-lb-type="section" data-lb-settings='[]' ><div data-lb-type="group" class="section-group" ><div data-lb-type="row" class="" data-lm-style=""><div data-lb-type="col" data-lb-size="12" class="" data-lm-visibility="" data-lm-style=""><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-abf008a5-7870-46bd-8aed-eba98a3e399e" data-lb-widget-uuid="abf008a5-7870-46bd-8aed-eba98a3e399e" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-block pane-customer-register-customer-register margin-top-30 white-text"  >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="register-box">
+	<img alt="register box" src="/sites/all/themes/custom/atomic_bootstrap/imgs/banners/bg-reg-comp.webp" />
+	<div class="container padding-45-0">
+		<div class=" vertical-align">
+			<div class="register-text col-md-7">
+				<div class="big-font">ZAREJESTRUJ SIĘ ZA DARMO!</div>
+				<p class="medium-font">Zarejestruj swoją firmę i zyskaj z Firmania oraz Cylex!</p>
+			</div>
+
+			<div class="col-md-5 text-right-md">
+				<button type="button" class="btn btn-primary btn-lg register-via-cylex" data-toggle="modal" data-target="#registerCompanyModal" >
+				  Zarejestruj swoją firmę				</button>
+			</div>
+		</div>
+	</div>
+</div>  </div>
+
+  
+  </div>
+</div></div></div></div></div></div><div data-lb-type="section" data-lb-settings='{"contentWidth":"","cssClass":"top-section light-gray-bg padding-top-30 ","cssContentClass":"container padding-bottom-30"}' class="top-section light-gray-bg padding-top-30 "><div data-lb-type="group" class="section-group container padding-bottom-30" ><div data-lb-type="row" class="nopadding" data-lm-style="nopadding"><div data-lb-type="col" data-lb-size="44" class="similar-block" data-lm-visibility="true" data-lm-style="similar-block"><div data-lb-type="group"><div data-lb-type="row" class="" data-lm-style=""><div data-lb-type="col" data-lb-size="8" class="" data-lm-visibility="" data-lm-style=""><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-dc039ec5-f9bb-48ec-abd5-a38bf1ff82dc" data-lb-widget-uuid="dc039ec5-f9bb-48ec-abd5-a38bf1ff82dc" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1><div class="panel-pane pane-block pane-views-similar-business-nearby-block text-left row-redirect col-sm-11"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-similar-business-nearby view-id-similar_business_nearby view-display-id-block view-dom-id-1cdec59c36b9a324a26845a6856ce54e">
+            <h2 class="pane-title text-left">
+        Podobne firmy w pobliżu      </h2>
+        
+  
+  
+      <div class="view-content">
+      
+			<div class="row">
+		  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-1 views-row-odd views-row-first">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/maziarz-ewa-studio-stylizacji-875591">Maziarz Ewa. Studio stylizacji</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content"></span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">aleja Niepodległości 130, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-554, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/maziarz-ewa-studio-stylizacji-875591" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-2 views-row-even">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/wish-gabinet-kosmetologiczny-907380">WISH Gabinet kosmetologiczny</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 7 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Różana 44, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-569, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/wish-gabinet-kosmetologiczny-907380" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			</div>
+				<div class="row">
+		  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-3 views-row-odd">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/dom-pi%C4%99kna-144070">Dom Piękna</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 8 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Al. Niepodległosci 118, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-585, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/dom-pi%C4%99kna-144070" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-4 views-row-even">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/salon-uroki-323110">Salon UROKI</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 8 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Ludwika Narbutta 70, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-529, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/salon-uroki-323110" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			</div>
+				<div class="row">
+		  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-5 views-row-odd">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/beautytek-gabinet-specjalistyczny-bierzniewska-r-107180">Beautytek. Gabinet specjalistyczny. Bierzniewska R.</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 8 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">al. Niepodległości 157, lok. 4, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-555, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/beautytek-gabinet-specjalistyczny-bierzniewska-r-107180" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-6 views-row-even">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/indigo-warszawa-beauty-service-399845">Indigo Warszawa - Beauty Service</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 8 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Kielecka 1, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-504, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/indigo-warszawa-beauty-service-399845" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			</div>
+				<div class="row">
+		  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-7 views-row-odd">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/showroom-paulina-kania-319913">SHOWROOM Paulina Kania</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 11 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Kazimierzowska 81/7, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-518, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/showroom-paulina-kania-319913" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-8 views-row-even">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/cud-pi%C4%99kno%C5%9Bci-kosmetyka-szkolenia-fryzjer-138552">CUD PIĘKNOŚCI: kosmetyka, szkolenia, fryzjer</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 11 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Ludwika Narbutta 77, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-524, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/cud-pi%C4%99kno%C5%9Bci-kosmetyka-szkolenia-fryzjer-138552" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			</div>
+				<div class="row">
+		  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-9 views-row-odd">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/restauracja-vivandier-810870">Restauracja Vivandier</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 11 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Łowicka 37, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-502, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/restauracja-vivandier-810870" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-10 views-row-even">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/rituals-salon-urody-sylwia-gawe%C5%82-775962">Rituals Salon Urody Sylwia Gaweł</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 8 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Narbutta 83 lok. U4, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-524, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/rituals-salon-urody-sylwia-gawe%C5%82-775962" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			</div>
+				<div class="row">
+		  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-11 views-row-odd">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/beauty-house-311061">Beauty House</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 8 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">łowicka 23/3, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-502, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/beauty-house-311061" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			  <div class="col-md-6 col-sm-12 col-xs-12 views-row views-row-12 views-row-even views-row-last">
+    
+<div class="companies-list box-shadow clearfix row ">
+        <div class="col-xs-12 col-sm-12"><h3 class="field-content margin-top-0 views-field-title"><a href="/warszawa/urodowe-inspiracje-makeup-by-heba-834458">Urodowe Inspiracje/ Makeup by Heba</a></h3></div>
+        <div class="col-xs-12 col-sm-12"><span class="field-content">      <div class="opens-closes-in current-status-closed">Otwiera za<span class="opens-closes-time"> 9 </span>h<span class="opens-closes-time"> 17 </span>min</div>  </span></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><i class="icon icon-location-2 orange-icon"></i> <div class="address-content"><div class="street-block inline"><span class="thoroughfare">Ludwika Narbutta 22/4, </span></div> <div class="addressfield-container-inline locality-block country-PL"> <span class="postal-code">02-524, </span> <span class="locality">Warszawa </span></div></div></div></div>
+        <div class="col-xs-12 col-sm-12"><div class="field-content"><a href="https://firmania.pl/warszawa/urodowe-inspiracje-makeup-by-heba-834458" class="btn btn-primary margin-top-15">więcej informacji</a></div></div>
+  </div>
+  </div>
+			</div>
+	    </div>
+  
+  
+  
+  
+  
+  </div>  </div>
+
+  
+  </div>
+</div></div></div><div data-lb-type="col" data-lb-size="4" class="" data-lm-visibility="" data-lm-style=""><div data-lb-type="group"><div data-lb-type="widget" data-lb-widget-id="new-c1232628-2822-4ba4-bc6e-e5a9306286e5" data-lb-widget-uuid="c1232628-2822-4ba4-bc6e-e5a9306286e5" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1 data-lb-visibility="hidden">&nbsp;</div></div></div></div><div data-lb-type="widget" data-lb-widget-id="new-4589a13e-ee42-4441-9075-8245a7dacf41" data-lb-widget-uuid="4589a13e-ee42-4441-9075-8245a7dacf41" data-lb-width=100 data-lb-height="auto" style="width: 100%; min-height: auto;" data-lb-widget-configurable=1 data-lb-visibility="hidden">&nbsp;</div></div></div></div></div></div></div></div></div>
+</section>
+  </div>
+    </section>
+
+    
+  </div>
+</div>
+
+  <header class="navbar white-block-header navbar-fixed-top">
+    <div class="container">
+      <div class="row site-logo">
+        <div class="col-xs-7 col-sm-3 col-md-3 site-logo-wrapper">
+                      <a class="logo" href="/" title="Startowej">
+              <img class="original-logo img-responsive" width="294" height="91" src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/logo.png" alt="Startowej" />
+            </a>
+          
+                  </div>
+                  <div class="col-xs-12 col-sm-9 col-md-9">
+                                        <div class="region region-top-header">
+    <section id="block-map-listing-map-listing" class="block block-map-listing clearfix">
+
+      
+  <div class="modal fade" id="mapviewModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header"> -->
+      <!-- </div> -->
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="map-modal-row">
+          <div class="map-modal-column-4 hidden-xs remove-padding-right">
+            <div id="modal-search-title" class="border-bottom"></div>
+            <div id="modal-search-result"></div>
+          </div>
+          <div class="map-modal-column-8 map-wrapper">
+            <button class="btn-search btn btn-primary form-submit hide" id="redo-search-in-map" name="op" value="Szukaj ponownie" type="submit">
+                <i class="icon icon-cw"></i>Szukaj ponownie</button>
+            <div id="modal-mapview">
+            </div>
+            <div id="company-popup"></div>
+            <div id="modal-search-result-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<section id="block-views-exp-search-page" class="block block-views clearfix">
+
+      
+  <a id="header-search-button" class="icon icon-search visible-xs" data-toggle="collapse" href="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch" title="Szukaj"></a><div class="collapse" id="collapseSearch"><form action="/search" method="get" id="views-exposed-form-search-page" accept-charset="UTF-8"><div>
+
+<div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+                  <div class="col-md-5 col-sm-5 ">
+      
+      <div id="edit-what-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-item-what form-type-textfield form-group"><input placeholder="kategoria / marka / nazwa firmy" aria-label="kategoria / marka / nazwa firmy" class="form-control form-text" type="text" id="edit-what" name="what" value="" size="30" maxlength="128" /></div>        </div>
+      </div>
+    </div>
+                  <div class="col-md-5 col-sm-4">
+      
+      <div id="edit-where-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext_1">
+                        <div class="views-widget">
+          <div class="form-item form-item-where form-type-textfield form-group"><input placeholder="kod pocztowy / miejscowość" aria-label="kod pocztowy / miejscowość" class="form-control form-text" type="text" id="edit-where" name="where" value="" size="30" maxlength="128" /></div>        </div>
+      </div>
+    </div>
+                  <div class="filter-geofield-location">
+      
+      <div id="edit-latlon-wrapper" class="views-exposed-widget views-widget-filter-field_company_geofield_latlon">
+                  <label for="edit-latlon">
+            LatLong Pair (indexed)          </label>
+                          <div class="views-operator">
+            <div class="form-item form-item-r form-type-select form-group"><select class="form-control form-select" id="edit-r" name="r"><option value="-">Radius</option><option value="5">5 km</option><option value="10" selected="selected">10 km</option><option value="16.09">10 mi</option></select></div>          </div>
+                <div class="views-widget">
+          <div class="form-item form-item-latlon form-type-textfield form-group"><input class="form-control form-text" type="text" id="edit-latlon" name="latlon" value="" size="30" maxlength="128" /></div>        </div>
+      </div>
+    </div>
+    
+                <div class="col-md-2 col-sm-3 form-submit-button-wrapper">
+      <div class="views-exposed-widget views-submit-button">
+        <button class="btn-search btn btn-primary form-submit" type="submit" id="edit-submit-search" name="op" value="&lt;i class=&quot;icon icon-search&quot;&gt;&lt;/i&gt;Szukaj"><i class="icon icon-search"></i>Szukaj</button>
+      </div>
+    </div>
+      </div>
+</div>
+
+
+</div></form></div>
+</section>
+  </div>
+                      </div>
+                      </div>
+    </div>
+
+          </header>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-3 clearfix footer-left-section">
+                  <a class="logo" href="/" title="Startowej">
+            <img class="original-logo img-responsive" width="294" height="91" src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/logo.png" alt="Startowej" />
+          </a>
+                      </div>
+      <div class="col-xs-12 col-sm-9 col-md-9 clearfix footer-right-section">
+                    <div class="region region-footer-right">
+    <section id="block-menu-menu-articles" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/faq" title="">FAQ</a></li>
+<li class="leaf"><a href="/contact" title="">Kontakt</a></li>
+<li class="leaf"><a href="/terms-and-conditions" title="">Ogólne warunki handlowe</a></li>
+<li class="leaf"><a href="/privacy-policy" title="">Polityka prywatności</a></li>
+<li class="last leaf"><a href="/legal-disclosure" title="">Dane firmy</a></li>
+</ul>
+</section>
+  </div>
+                          Informacje zawarte na stronie Firmania to dane wprowadzone przez osoby trzecie, tzn. np. przez samych klientów lub dane pozyskane z ogólnie dostępnych źródeł. Cylex nie ponosi zatem odpowiedzialności za aktualność, poprawność, kompletność, wiarygodność oraz jakość danych. Użyte nazwy własne, marki, logo, zdjęcia oraz teksty są własnością posiadacza adekwatnych praw. W razie pytań, prosimy o kontakt z naszym serwisem klienta.              </div>
+    </div>
+  </div>
+
+  </footer>
+  <script defer="defer" src="https://firmania.pl/sites/firmania_pl/files/google_tag/language/google_tag.pl.script.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/libraries/modernizr/modernizr.min.js?rfr6lp"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.12/jquery.min.js'>\x3C/script>")</script>
+<script src="https://firmania.pl/misc/jquery-extend-3.4.0.js?v=1.12.2"></script>
+<script src="https://firmania.pl/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.12.2"></script>
+<script src="https://firmania.pl/misc/jquery.once.js?v=1.2"></script>
+<script src="https://firmania.pl/misc/drupal.js?rfr6lp"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script>
+<script src="https://firmania.pl/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/current_location/js/current_location.js?v=1.0"></script>
+<script src="https://firmania.pl/sites/all/modules/contrib/pwa/js/register.js?v=7.x-2.0-alpha2+8-dev-1615984954"></script>
+<script src="https://firmania.pl/sites/all/modules/contrib/pwa/js/autoreload.js?v=7.x-2.0-alpha2+8-dev-1615984954"></script>
+<script src="https://firmania.pl/sites/all/modules/contrib/pwa/js/beforeinstallprompt.js?v=7.x-2.0-alpha2+8-dev-1615984954"></script>
+<script src="https://firmania.pl/misc/states.js?v=7.82"></script>
+<script src="https://firmania.pl/sites/firmania_pl/files/languages/pl_8TS4jB8p0trrnoOTgBmLZzMq7-RdTQqFrGeKTi1gyqc.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/near_me/js/near_me.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/morphic/plugins/display_renderers/js/general.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/jquery_preload/js/jquery.preload.min.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/jquery_preload/js/drupal_jquery_preload.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/company_details/js/load_map.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/yext/yext_tracking_pixel/js/yext_tracking_pixel.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/customer_register/js/customer_register.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/libraries/echo/dist/echo.min.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/modified/lazyloader/lazyloader.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/cylex_reviews/js/cylex_reviews.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/search_details/js/search_details.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/search_details/js/search_form_restriction.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/contrib/search_autocomplete/js/jquery.autocomplete.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/company_details/js/adult_modal.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/customer_care/js/customer_care.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/custom/geoip/geoip.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/modules/contrib/datalayer/datalayer.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/bootstrap/js/collapse.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/bootstrap/js/modal.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/bootstrap/js/tooltip.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/bootstrap/js/popover.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/bootstrap/js/tab.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/custom/atomic_bootstrap/js/cylex_theme.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/contrib/bootstrap/js/misc/states.js?rfr6lp"></script>
+<script src="https://firmania.pl/sites/all/themes/contrib/bootstrap/js/bootstrap.js?rfr6lp"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"atomic_bootstrap","theme_token":"6v507fP4QUIrzDK88oAdjiNNjSx9zHbZDxCYlW2grb4"},"near_me":{"settings":{"days":"30"},"nearme_history":{"term":{"tid":"36","name":"Warszawa","coords":{"lat":"52.235660000000","lon":"20.976860000000"}},"save_time":1659566570,"source":"history"}},"jQueryPreload":{".UrlFormatterImage, .field-name-field-company-logo img":{"selector":".UrlFormatterImage, .field-name-field-company-logo img","preloadParams":{"placeholder":"https:\/\/firmania.pl\/sites\/all\/themes\/custom\/cylex\/images\/company-default.png","notFound":"https:\/\/firmania.pl\/sites\/all\/themes\/custom\/cylex\/images\/company-default.png"}},".UrlFormatterImage, .views-field-field-company-logo img":{"selector":".UrlFormatterImage, .views-field-field-company-logo img","preloadParams":{"placeholder":"https:\/\/firmania.pl\/sites\/all\/themes\/custom\/cylex\/images\/company-default.png","notFound":"https:\/\/firmania.pl\/sites\/all\/themes\/custom\/cylex\/images\/company-default.png"}}},"lazyloader":{"throttle":50,"offset":250,"debounce":true,"unload":false,"icon":"\/sites\/all\/modules\/modified\/lazyloader\/loader\/loader-7.gif","offsetX":12,"offsetY":12},"company_details":{"map_settings":{"height":"200","width":"","zoom":"15","lat":52.2034099,"lon":21.0112433,"name":"\u003Cspan class=\u0022company-name\u0022\u003ENel\u0027s Studio Kosmetyczne\u003C\/span\u003E","address":"\u003Cdiv class=\u0022field field-name-field-company-address field-type-addressfield field-label-hidden\u0022\u003E\n  \n  \u003Cdiv class=\u0022field-items\u0022\u003E\n          \u003Cdiv class=\u0022street-block inline\u0022\u003E\u003Cspan class=\u0022thoroughfare\u0022\u003EMadali\u0144skiego 57, \u003C\/span\u003E\u003C\/div\u003E \u003Cdiv class=\u0022addressfield-container-inline locality-block country-PL\u0022\u003E \u003Cspan class=\u0022postal-code\u0022\u003E02-544, \u003C\/span\u003E \u003Cspan class=\u0022locality\u0022\u003EWarszawa \u003C\/span\u003E\u003C\/div\u003E      \u003C\/div\u003E\n\u003C\/div\u003E\n","basepath":"https:\/\/firmania.pl\/sites\/all\/modules\/custom\/company_details"},"continent":"eu","base_theme":"atomic_bootstrap","mapbox_url":"https:\/\/firmania.pl\/sites\/all\/modules\/custom\/company_details\/js\/mapbox-gl.js"},"CustomerRegister":{"compID":"303048"},"cookieFormatterSettings":{"types":{"current":"c","global":"g"},"type_delimiter":"-d-"},"defaultCountry":"pl","current_location":{"settings":{"cookies":{"geo_coordonates":"currentLocationCoordonates","geo_locate":"geoLocateActivate","location_term":"currentLocation","set_location_tid":"setLocationTid"},"location":[],"require_location_page":0}},"states":{"#edit-latlon":{"visible":{":input[name=\u0022r\u0022],dummy-empty":{"!value":"empty"},":input[name=\u0022r\u0022],dummy-not-empty":{"!value":"not empty"}}}},"search_details":{"time":"2022\/08\/04 00:42:50"},"urlIsAjaxTrusted":{"\/search":true},"search_autocomplete":{"form4":{"selector":"input#edit-where.form-control.form-text","minChars":"2","max_sug":"5","type":"internal","datas":"https:\/\/firmania.pl\/search_autocomplete\/autocomplete\/4\/","fid":"4","theme":"cylex_autocomplete","auto_submit":"1","auto_redirect":"0"}},"DefaultCompanyLogo":"https:\/\/firmania.pl\/sites\/all\/themes\/custom\/cylex\/images\/company-default.png","CustomerCare":{"compID":"303048"},"geoip":{"settings":{"geoip_ls_count":"5"}},"dataLayer":{"languages":{"en":{"language":"en","name":"English","native":"English","direction":"0","enabled":"1","plurals":"0","formula":"","domain":"","prefix":"en","weight":"0","javascript":""},"pl":{"language":"pl","name":"Polish","native":"Polski","direction":"0","enabled":"1","plurals":"3","formula":"(($n==1)?(0):((((($n%10)\u003E=2)\u0026\u0026(($n%10)\u003C=4))\u0026\u0026((($n%100)\u003C10)||(($n%100)\u003E=20)))?(1):2))","domain":"","prefix":"","weight":"0","javascript":"8TS4jB8p0trrnoOTgBmLZzMq7-RdTQqFrGeKTi1gyqc"}}},"pwa":{"path":"\/pwa\/serviceworker\/js"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</body>
+</html>
